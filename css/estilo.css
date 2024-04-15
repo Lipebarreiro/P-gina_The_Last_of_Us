@@ -1,0 +1,107 @@
+:root {
+    --color_01: #1e1d1c;
+    --color_02: #6f7065;
+    --color_03: #888b8c;
+    --color_04: #8b9483;
+    --color_05: #b3b29b;
+}
+
+body {
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+td {
+    text-align: center;
+}
+
+#header_box img {
+    width: 100%;
+}
+
+.img {
+    width: 900px;
+    height: 400px;
+}
+
+table {
+    background-color: var(--color_04);
+    margin: auto;
+    width: 500px;
+}
+
+#nav_box {
+    background-color: var(--color_01);
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+
+#nav_box ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_box li {
+    float: left;
+}
+
+#nav_box a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color_05);
+}
+
+.ativo {
+    background-color: var(--color_02);
+    color: var(--color_01);
+}
+
+#nav_box a:hover:not(.ativo) {
+    background-color: var(--color_02);
+    color: var(--color_01);
+    transition: 0.4s;
+}
+
+.article_box {
+    padding: 10px;
+}
+
+.article_box p {
+    font-size: 20px;
+    text-align: justify;
+    color: var(--color_01);
+}
+
+.article_box h2 {
+    background-color: var(--color_01);
+    padding: 10px;
+    color: var(--color_05);
+}
+
+#footer_box {
+    border-top: 8px solid var(--color_01);
+    background-color: var(--color_01);
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    color: var(--color_05);   
+}
+
+#a_saibamais{
+    text-decoration: none;
+    color: var(--color_01);
+    border-top: 5px solid var(--color_01);
+    border-bottom: 5px solid var(--color_01);
+}
+
+#a_saibamais:hover{
+    background-color: var(--color_02);
+    color: var(--color_05);
+    transition: 0.4s;
+}
+
